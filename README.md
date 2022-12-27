@@ -12,7 +12,7 @@ A Máscara foi escolhida para ter um menor desperdício de IP. Para conectar à 
 10.	0.	0.	1.
 00001010.	00000000.	00000000.	00000001.
 			                        0000|0001.
-8.	8.	8.	4 .
+8.	8.	8.	4 
 255.	255.	255.	252
 
 8 + 8 + 8 + 4 = 30 Máscaras.
