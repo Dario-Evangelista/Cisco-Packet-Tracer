@@ -9,11 +9,11 @@ R2 10.0.0.2/30 (255.255.255.252)
 A Máscara foi escolhida para ter um menor desperdício de IP. Para conectar à rede precisa de 2 IP, (2^) - 2.
 (24) = 4(-2) = 2 IP validos.
 
-10	0	0	1
-00001010	00000000	00000000	00000001
-			                        0000|0001
-8	8	8	4 
-255	255	255	252
+10	0	0	1|
+00001010	00000000	00000000	00000001|
+			                        0000|0001|
+8	8	8	4 |
+255	255	255	252|
 
 8 + 8 + 8 + 4 = 30 Máscaras.
 Com isso conseguimos um menor desperdício de IP.
